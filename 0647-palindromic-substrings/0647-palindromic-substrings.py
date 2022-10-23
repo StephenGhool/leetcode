@@ -1,7 +1,7 @@
 class Solution:
     def countSubstrings(self, s: str) -> int:
         """
-        Method 1: Two pointers
+        Method 1: Two pointers (fast than second method approx 120ms)
         """
         # edge cases
         if len(s) <= 1:
@@ -46,7 +46,7 @@ class Solution:
         return result
     
 #         """
-#         Method 2: Two pointers condensed
+#         Method 2: Two pointers condensed (slower than above approx 250ms)
 #         """
         
 #         # edge cases
