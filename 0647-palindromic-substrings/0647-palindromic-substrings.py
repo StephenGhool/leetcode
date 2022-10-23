@@ -26,13 +26,12 @@ class Solution:
                 else:
                     break
             left = right = i
-        print(result)
+ 
         # pointers declaration
         left, right = 0, 1
         
         # even
         for i, char in enumerate(s):
-            print(left,right)
             while(left >= 0 and right <= length-1):
                 if s[left]==s[right]:
                     result += 1
